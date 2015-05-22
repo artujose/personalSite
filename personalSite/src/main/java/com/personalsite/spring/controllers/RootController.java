@@ -4,6 +4,7 @@ import javax.mail.MessagingException;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -29,9 +30,10 @@ public class RootController {
 		return "HelloWorld !!!";
 	}*/
 	
-//	@RequestMapping("/")
-//	public String home(){
-//		return "home";
-//	}
+	@RequestMapping("/signup")
+	public String signup(Model model){ // Model injected into the App
+		model.addAttribute("name","Arturo Diaz");
+		return "signup";
+	}
 	
 }

@@ -1,7 +1,7 @@
 <%@include file="includes/header.jsp"%>
 
 
-<spring:message code="hello" />
+Signup ${name}
 
 
 <%@include file="includes/footer.jsp" %>
