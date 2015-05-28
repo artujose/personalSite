@@ -9,7 +9,7 @@
 	<packaging>war</packaging>
 
 	<name>personalsite</name>
-	<description>com.personalsite</description>
+	<description>Arturo Personal Site</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
